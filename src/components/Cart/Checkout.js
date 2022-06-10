@@ -3,46 +3,41 @@ import classes from "./Checkout.module.css";
 
 const isEmpty = (value) => value.trim() === "";
 
-const isFiveChars = (value) => value.trim().length === 6;
+const isTenChars = (value) => value.trim().length === 10;
+
+const isEmail = (value) => value.trim().includes("@");
 
 const Checkout = (props) => {
   const [formInputsValidity, setFormInputsValidity] = useState({
     name: true,
-    street: true,
-    city: true,
-    postalCode: true,
+    phone: true,
+    email: true,
   });
 
   const nameInputRef = useRef();
-  const streetInputRef = useRef();
-  const postalCodeInputRef = useRef();
-  const cityInputRef = useRef();
+  const phoneInputRef = useRef();
+  const emailInputRef = useRef();
 
   const confirmHandler = (event) => {
     event.preventDefault();
 
     const enteredName = nameInputRef.current.value;
-    const enteredStreet = streetInputRef.current.value;
-    const enteredPostalCode = postalCodeInputRef.current.value;
-    const enteredCity = cityInputRef.current.value;
+    const enteredPhone = phoneInputRef.current.value;
+    const enteredEmail = emailInputRef.current.value;
 
     const enteredNameIsValid = !isEmpty(enteredName);
-    const enteredStreetIsValid = !isEmpty(enteredStreet);
-    const enteredPostalCodeIsValid = isFiveChars(enteredPostalCode);
-    const enteredCityIsValid = !isEmpty(enteredCity);
+    const enteredPhoneIsValid =
+      !isEmpty(enteredPhone) && isTenChars(enteredPhone);
+    const enteredEmailIsValid = !isEmpty(enteredEmail) && isEmail(enteredEmail);
 
     setFormInputsValidity({
       name: enteredNameIsValid,
-      street: enteredStreetIsValid,
-      city: enteredCityIsValid,
-      postalCode: enteredPostalCodeIsValid,
+      phone: enteredPhoneIsValid,
+      email: enteredEmailIsValid,
     });
 
     const formIsValid =
-      enteredNameIsValid &&
-      enteredCityIsValid &&
-      enteredPostalCodeIsValid &&
-      enteredCityIsValid;
+      enteredNameIsValid && enteredPhoneIsValid && enteredEmailIsValid;
 
     if (!formIsValid) {
       return;
@@ -50,23 +45,19 @@ const Checkout = (props) => {
 
     props.onConfirm({
       name: enteredName,
-      street: enteredStreet,
-      city: enteredCity,
-      postalCode: enteredPostalCode,
+      phone: enteredPhone,
+      email: enteredEmail,
     });
   };
 
   const nameControlClasses = `${classes.control} ${
     formInputsValidity.name ? "" : classes.invalid
   }`;
-  const streetControlClasses = `${classes.control} ${
-    formInputsValidity.street ? "" : classes.invalid
+  const phoneControlClasses = `${classes.control} ${
+    formInputsValidity.phone ? "" : classes.invalid
   }`;
-  const postalCodeControlClasses = `${classes.control} ${
-    formInputsValidity.postalCode ? "" : classes.invalid
-  }`;
-  const cityControlClasses = `${classes.control} ${
-    formInputsValidity.city ? "" : classes.invalid
+  const emailControlClasses = `${classes.control} ${
+    formInputsValidity.email ? "" : classes.invalid
   }`;
 
   return (
@@ -76,22 +67,17 @@ const Checkout = (props) => {
         <input type="text" id="name" ref={nameInputRef} />
         {!formInputsValidity.name && <p>Please enter a valid name!</p>}
       </div>
-      <div className={streetControlClasses}>
-        <label htmlFor="street">Street</label>
-        <input type="text" id="street" ref={streetInputRef} />
-        {!formInputsValidity.street && <p>Please enter a valid street!</p>}
-      </div>
-      <div className={postalCodeControlClasses}>
-        <label htmlFor="postal">Postal Code</label>
-        <input type="text" id="postal" ref={postalCodeInputRef} />
-        {!formInputsValidity.postalCode && (
-          <p>Please enter a valid postal code! (6 characters long.)</p>
+      <div className={phoneControlClasses}>
+        <label htmlFor="phone">Phone Number</label>
+        <input type="number" id="phone" ref={phoneInputRef} />
+        {!formInputsValidity.phone && (
+          <p>Please enter a valid phone number (only 10 digits)!</p>
         )}
       </div>
-      <div className={cityControlClasses}>
-        <label htmlFor="city">City</label>
-        <input type="text" id="city" ref={cityInputRef} />
-        {!formInputsValidity.city && <p>Please enter a valid City!</p>}
+      <div className={emailControlClasses}>
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" ref={emailInputRef} />
+        {!formInputsValidity.email && <p>Please enter a valid email!</p>}
       </div>
       <div className={classes.actions}>
         <button type="button" onClick={props.onCancel}>
