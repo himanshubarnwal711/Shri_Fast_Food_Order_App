@@ -1,0 +1,2 @@
+This is a git revision stories.
+Wow Learning Git again.
