@@ -1,0 +1,362 @@
+[
+  {
+    "Id": 1,
+    "name": "Veg Chowmein",
+    "price": 120,
+    "description": "Delicious noodles cooked with sauteed vegetables and flavorful spices."
+  },
+  {
+    "Id": 2,
+    "name": "Veg Burger",
+    "price": 60,
+    "description": "Crispy vegetable patty layered with fresh vegetables, sauces and a soft burger bun."
+  },
+  {
+    "Id": 3,
+    "name": "Paneer Chowmein",
+    "price": 150,
+    "description": "Flavorful noodles tossed with fresh vegetables, soft paneer and aromatic spices."
+  },
+  {
+    "Id": 4,
+    "name": "Veg Roll",
+    "price": 50,
+    "description": "Soft roll filled with seasoned mixed vegetables, onions and delicious sauces."
+  },
+  {
+    "Id": 5,
+    "name": "Paneer Roll",
+    "price": 80,
+    "description": "Soft wrap filled with spicy paneer, onions, fresh vegetables and flavorful sauces."
+  },
+  {
+    "Id": 6,
+    "name": "Double Egg Roll",
+    "price": 80,
+    "description": "Hearty roll stuffed with two eggs, onions, vegetables and tasty sauces."
+  },
+  {
+    "Id": 7,
+    "name": "Double Paneer Egg Roll",
+    "price": 120,
+    "description": "Loaded roll combining double paneer, egg, onions, vegetables and signature sauces."
+  },
+  {
+    "Id": 8,
+    "name": "Veg Biryani",
+    "price": 120,
+    "description": "Fragrant basmati rice cooked with fresh vegetables, herbs and aromatic biryani spices."
+  },
+  {
+    "Id": 9,
+    "name": "Paneer Kadahi",
+    "price": 200,
+    "description": "Soft paneer cooked with capsicum, onions, tomatoes and rich kadai spices."
+  },
+  {
+    "Id": 10,
+    "name": "Shahi Paneer",
+    "price": 200,
+    "description": "Creamy paneer curry prepared with a rich tomato, cashew and aromatic spice gravy."
+  },
+  {
+    "Id": 11,
+    "name": "Paneer Do Pyaza",
+    "price": 210,
+    "description": "Tender paneer cooked with plenty of onions, tomatoes and flavorful Indian spices."
+  },
+  {
+    "Id": 12,
+    "name": "Paneer Tikka Masala",
+    "price": 230,
+    "description": "Grilled paneer pieces simmered in a rich, creamy and spicy tikka masala gravy."
+  },
+  {
+    "Id": 13,
+    "name": "French Fries",
+    "price": 80,
+    "description": "Crispy golden potato fries seasoned perfectly and served hot."
+  },
+  {
+    "Id": 14,
+    "name": "Peri Peri Fries",
+    "price": 100,
+    "description": "Crispy golden fries tossed with spicy and tangy peri peri seasoning."
+  },
+  {
+    "Id": 15,
+    "name": "Cheese Fries",
+    "price": 120,
+    "description": "Crispy fries topped with creamy melted cheese and flavorful seasoning."
+  },
+  {
+    "Id": 16,
+    "name": "Veg Sandwich",
+    "price": 70,
+    "description": "Fresh vegetables, cheese and flavorful sauces served between toasted bread."
+  },
+  {
+    "Id": 17,
+    "name": "Cheese Sandwich",
+    "price": 90,
+    "description": "Toasted sandwich filled with melted cheese, vegetables and delicious sauces."
+  },
+  {
+    "Id": 18,
+    "name": "Veg Grilled Sandwich",
+    "price": 100,
+    "description": "Grilled sandwich packed with seasoned vegetables, cheese and signature sauces."
+  },
+  {
+    "Id": 19,
+    "name": "Paneer Sandwich",
+    "price": 120,
+    "description": "Toasted sandwich filled with seasoned paneer, fresh vegetables and creamy sauces."
+  },
+  {
+    "Id": 20,
+    "name": "Veg Manchurian",
+    "price": 120,
+    "description": "Crispy vegetable dumplings tossed in a spicy, tangy Indo-Chinese Manchurian sauce."
+  },
+  {
+    "Id": 21,
+    "name": "Paneer Manchurian",
+    "price": 160,
+    "description": "Crispy paneer pieces tossed with vegetables in a flavorful Indo-Chinese sauce."
+  },
+  {
+    "Id": 22,
+    "name": "Chilli Paneer",
+    "price": 170,
+    "description": "Crispy paneer tossed with capsicum, onions and spicy chilli sauce."
+  },
+  {
+    "Id": 23,
+    "name": "Chilli Potato",
+    "price": 120,
+    "description": "Crispy potato strips tossed with onions, capsicum and spicy tangy sauce."
+  },
+  {
+    "Id": 24,
+    "name": "Honey Chilli Potato",
+    "price": 140,
+    "description": "Crispy potato strips coated in a delicious combination of honey, chilli and sesame."
+  },
+  {
+    "Id": 25,
+    "name": "Veg Fried Rice",
+    "price": 120,
+    "description": "Aromatic rice stir-fried with fresh vegetables, sauces and Indo-Chinese spices."
+  },
+  {
+    "Id": 26,
+    "name": "Paneer Fried Rice",
+    "price": 150,
+    "description": "Stir-fried rice combined with soft paneer, vegetables and flavorful sauces."
+  },
+  {
+    "Id": 27,
+    "name": "Schezwan Fried Rice",
+    "price": 140,
+    "description": "Spicy fried rice tossed with vegetables and bold Schezwan sauce."
+  },
+  {
+    "Id": 28,
+    "name": "Schezwan Chowmein",
+    "price": 140,
+    "description": "Spicy noodles tossed with fresh vegetables and fiery Schezwan sauce."
+  },
+  {
+    "Id": 29,
+    "name": "Paneer Schezwan Chowmein",
+    "price": 170,
+    "description": "Spicy Schezwan noodles loaded with paneer, vegetables and aromatic sauces."
+  },
+  {
+    "Id": 30,
+    "name": "Veg Momos",
+    "price": 100,
+    "description": "Steamed dumplings filled with seasoned vegetables and served with spicy chutney."
+  },
+  {
+    "Id": 31,
+    "name": "Fried Veg Momos",
+    "price": 120,
+    "description": "Crispy fried vegetable momos served hot with spicy chutney."
+  },
+  {
+    "Id": 32,
+    "name": "Paneer Momos",
+    "price": 130,
+    "description": "Soft steamed momos filled with seasoned paneer and vegetables."
+  },
+  {
+    "Id": 33,
+    "name": "Fried Paneer Momos",
+    "price": 150,
+    "description": "Crispy fried momos stuffed with flavorful paneer and served with spicy chutney."
+  },
+  {
+    "Id": 34,
+    "name": "Paneer Pakoda",
+    "price": 140,
+    "description": "Crispy gram-flour coated paneer fritters seasoned with aromatic Indian spices."
+  },
+  {
+    "Id": 35,
+    "name": "Veg Pakoda",
+    "price": 100,
+    "description": "Crispy mixed vegetable fritters seasoned with flavorful Indian spices."
+  },
+  {
+    "Id": 36,
+    "name": "Paneer Chilli Roll",
+    "price": 100,
+    "description": "Soft roll filled with spicy chilli paneer, onions, capsicum and signature sauces."
+  },
+  {
+    "Id": 37,
+    "name": "Aloo Tikki Burger",
+    "price": 70,
+    "description": "Crispy spiced potato patty served in a soft bun with vegetables and tangy sauces."
+  },
+  {
+    "Id": 38,
+    "name": "Cheese Burger",
+    "price": 100,
+    "description": "Crispy vegetable patty topped with melted cheese, fresh vegetables and signature sauces."
+  },
+  {
+    "Id": 39,
+    "name": "Paneer Burger",
+    "price": 120,
+    "description": "Flavorful paneer patty layered with fresh vegetables, cheese and creamy sauces."
+  },
+  {
+    "Id": 40,
+    "name": "Double Cheese Burger",
+    "price": 140,
+    "description": "Loaded burger with crispy vegetable patty, double cheese, fresh vegetables and sauces."
+  },
+  {
+    "Id": 41,
+    "name": "Masala Maggi",
+    "price": 60,
+    "description": "Hot and comforting Maggi noodles cooked with vegetables and aromatic masala."
+  },
+  {
+    "Id": 42,
+    "name": "Veg Maggi",
+    "price": 80,
+    "description": "Classic Maggi noodles loaded with fresh vegetables and flavorful spices."
+  },
+  {
+    "Id": 43,
+    "name": "Cheese Maggi",
+    "price": 100,
+    "description": "Hot Maggi noodles topped with creamy melted cheese and flavorful seasoning."
+  },
+  {
+    "Id": 44,
+    "name": "Paneer Maggi",
+    "price": 110,
+    "description": "Spicy Maggi noodles loaded with soft paneer, vegetables and aromatic spices."
+  },
+  {
+    "Id": 45,
+    "name": "Tandoori Paneer",
+    "price": 220,
+    "description": "Marinated paneer grilled with capsicum and onions in a smoky tandoori style."
+  },
+  {
+    "Id": 46,
+    "name": "Paneer Butter Masala",
+    "price": 210,
+    "description": "Soft paneer cooked in a creamy tomato and butter gravy with aromatic spices."
+  },
+  {
+    "Id": 47,
+    "name": "Matar Paneer",
+    "price": 190,
+    "description": "Soft paneer and green peas cooked in a rich tomato-based Indian gravy."
+  },
+  {
+    "Id": 48,
+    "name": "Palak Paneer",
+    "price": 190,
+    "description": "Soft paneer cubes simmered in a creamy spinach gravy with aromatic spices."
+  },
+  {
+    "Id": 49,
+    "name": "Paneer Lababdar",
+    "price": 220,
+    "description": "Paneer cooked in a rich, creamy tomato gravy with onions and aromatic spices."
+  },
+  {
+    "Id": 50,
+    "name": "Dal Tadka",
+    "price": 140,
+    "description": "Yellow lentils tempered with garlic, cumin, chillies and aromatic Indian spices."
+  },
+  {
+    "Id": 51,
+    "name": "Jeera Rice",
+    "price": 100,
+    "description": "Fragrant basmati rice tempered with roasted cumin seeds and aromatic spices."
+  },
+  {
+    "Id": 52,
+    "name": "Plain Rice",
+    "price": 80,
+    "description": "Steamed fluffy rice, perfect as a simple accompaniment to curries and gravies."
+  },
+  {
+    "Id": 53,
+    "name": "Tawa Roti",
+    "price": 15,
+    "description": "Freshly prepared Indian flatbread cooked on a hot tawa."
+  },
+  {
+    "Id": 54,
+    "name": "Butter Roti",
+    "price": 20,
+    "description": "Soft freshly cooked roti brushed generously with butter."
+  },
+  {
+    "Id": 55,
+    "name": "Plain Paratha",
+    "price": 40,
+    "description": "Flaky and crispy Indian flatbread prepared fresh with a light layer of oil."
+  },
+  {
+    "Id": 56,
+    "name": "Butter Paratha",
+    "price": 50,
+    "description": "Crispy flaky paratha cooked with butter for a rich and delicious taste."
+  },
+  {
+    "Id": 57,
+    "name": "Paneer Paratha",
+    "price": 90,
+    "description": "Stuffed Indian flatbread filled with seasoned grated paneer and spices."
+  },
+  {
+    "Id": 58,
+    "name": "Aloo Paratha",
+    "price": 70,
+    "description": "Traditional stuffed paratha filled with spiced mashed potatoes and herbs."
+  },
+  {
+    "Id": 59,
+    "name": "Cold Coffee",
+    "price": 100,
+    "description": "Chilled creamy coffee blended with milk and ice for a refreshing drink."
+  },
+  {
+    "Id": 60,
+    "name": "Chocolate Shake",
+    "price": 120,
+    "description": "Thick and creamy chocolate milkshake made with rich chocolate flavor."
+  }
+]
