@@ -4,7 +4,8 @@ resource "aws_apigatewayv2_api" "main" {
 
   cors_configuration {
     allow_origins = [
-      "http://localhost:3000"
+      "http://localhost:3000",
+      "https://shrifastfood.netlify.app"
     ]
 
     allow_methods = [
