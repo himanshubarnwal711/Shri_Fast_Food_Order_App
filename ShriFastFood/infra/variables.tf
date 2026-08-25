@@ -21,3 +21,9 @@ variable "meals_table_name" {
   type        = string
   default     = "mealsList"
 }
+
+variable "gmail_secret_name" {
+  description = "AWS Secrets Manager secret containing Gmail credentials"
+  type        = string
+  default     = "shri-fast-food/gmail-credentials"
+}

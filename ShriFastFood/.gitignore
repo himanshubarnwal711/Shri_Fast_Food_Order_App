@@ -21,6 +21,7 @@ terraform.tfstate.backup
 # ==============================
 meals_lambda.zip
 awscliv2.zip
+order_email_lambda.zip
 
 # Other Lambda/deployment ZIP files
 *.zip
